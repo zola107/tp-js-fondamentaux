@@ -6,6 +6,8 @@ let age = 18;
 
 const motDePasseAttendu = "secret123";
 let motDePasseUtilisateur = "1234"; 
+
+
 if ( motDePasseUtilisateur ===  motDePasseAttendu ) {
     console.log("Accès autorisé. Bienvenue !");
 } else if ( motDePasseUtilisateur.length < 8  ) {
@@ -31,4 +33,27 @@ console.log(notes.length);
 
 for (let i = 0; i < notes.length; i++) {
     console.log("La note à l'indice " + i + " est " + notes[i]);
+}
+
+const classe = [
+    { prenom: 'Camille', age: 18 },
+    { prenom: 'laka', age: 17 }
+    
+
+];
+
+
+for (let i = 0; i < classe.length; i++) 
+    if (classe[i].age >= 18 ) {
+        console.log(classe[i].prenom + " est majeur")
+    }
+else {
+       console.log(classe[i].prenom + " est pas majeur")
+}
+
+
+const prenom = "camille"
+function saluer(prenom) {
+    const message = "Bonjour " + prenom;
+    return message;
 }
