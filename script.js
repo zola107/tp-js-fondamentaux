@@ -52,8 +52,8 @@ else {
 }
 
 
-const prenom = "camille"
 function saluer(prenom) {
     const message = "Bonjour " + prenom;
     return message;
 }
+console.log (saluer("maddie"))
