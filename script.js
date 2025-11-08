@@ -56,4 +56,17 @@ function saluer(prenom) {
     const message = "Bonjour " + prenom;
     return message;
 }
-console.log (saluer("maddie"))
+
+const salutationPourAlice = saluer("Alice");
+
+console.log(salutationPourAlice);
+
+
+
+
+const estMajeur = (age) => age >= 18;
+
+console.log(estMajeur(18));
+
+
+
