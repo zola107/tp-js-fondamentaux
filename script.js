@@ -61,12 +61,32 @@ const salutationPourAlice = saluer("Alice");
 
 console.log(salutationPourAlice);
 
-
-
-
 const estMajeur = (age) => age >= 18;
 
 console.log(estMajeur(18));
+
+
+
+
+
+
+
+
+
+
+const tableau = [10, 12, 14, 15];
+
+const calculerMoyenne = tableau => {
+
+let moyenne = 0;
+
+for (let i = 0; i < tableau.length; i++){
+moyenne = moyenne + tableau[i];
+}
+return ( moyenne / tableau.length);
+}
+
+console.log(calculerMoyenne(tableau));
 
 
 
